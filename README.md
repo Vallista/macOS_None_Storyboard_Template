@@ -35,7 +35,7 @@ Let's create a new `Main` and replace it.
 
 Create the `main.swift` file.
 
-```objectivec
+```swift
 import Cocoa
 
 autoreleasepool { () -> () in
@@ -48,7 +48,7 @@ autoreleasepool { () -> () in
 
 Delete `NSApplicationMain` from` AppDelegate.swift`. And add the source code.
 
-```objectivec
+```swift
 import Cocoa
 
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -69,7 +69,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 add the source code `ViewController.swift` too.
 
-```objectivec
+```swift
 import Cocoa
 
 class ViewController: NSViewController {
