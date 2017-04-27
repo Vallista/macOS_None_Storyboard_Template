@@ -4,8 +4,15 @@ The damn `macOS` and `iOS` projects were made angry by letting me study how to a
 
 So I made an example. I do not want everyone to do trial and error like I do.
 
+### Installation
 
-##### Create Project -> Project Settings
+There is nothing to install.
+Download this project.
+
+enjoy!
+
+
+### Explanation
 
 Create a new project. Then it is made as follows.
 
