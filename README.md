@@ -16,15 +16,15 @@ enjoy!
 
 Create a new project. Then it is made as follows.
 
-![이미지1](https://vallista.github.io//assets/img/postImg/post7/1.png)
+![이미지1](https://github.com/Vallista/NoUseStoryboard-BoilerPlate/blob/master/images/1.png?raw=true)
 
 The reason that the storyboard is turned on first in the app is because `AppDelegate.swift` is main and `Storyboard` is registered as `NSMainStoryboardFile` in `info.plist`. Let's erase it as follows.
 
-![이미지2](https://vallista.github.io//assets/img/postImg/post7/2.png)
+![이미지2](https://github.com/Vallista/NoUseStoryboard-BoilerPlate/blob/master/images/2.png?raw=true)
 
 delete `Storyboard` too.
 
-![이미지3](https://vallista.github.io//assets/img/postImg/post7/3.png)
+![이미지3](https://github.com/Vallista/NoUseStoryboard-BoilerPlate/blob/master/images/3.png?raw=true)
 
 And when it is executed, it is not executed.
 
@@ -87,8 +87,8 @@ class ViewController: NSViewController {
 And when it is executed, it is not executed.
 go to `info.plist`, add `Principal class` and `NSApplication`
 
-![이미지4](https://vallista.github.io//assets/img/postImg/post7/4.png)
+![이미지4](https://github.com/Vallista/NoUseStoryboard-BoilerPlate/blob/master/images/4.png?raw=true)
 
 If you run it, the window will be created normally.
 
-![이미지5](https://vallista.github.io//assets/img/postImg/post7/5.png)
+![이미지5](https://github.com/Vallista/NoUseStoryboard-BoilerPlate/blob/master/images/5.png?raw=true)
